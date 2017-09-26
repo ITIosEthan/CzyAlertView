@@ -7,7 +7,8 @@ NSMutableAttributedString *s = [[NSMutableAttributedString alloc] initWithString
 
 CzyAlertView *alertView = [CzyAlertView shareInstance];
         
-[alertView showAlertWithTitle:@"很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长" andAlertTitleColor:[UIColor redColor] andAlertTitleFont:[UIFont boldSystemFontOfSize:18] andAlertTitleH:180 andButtonNames:@[s,@"非属性字符串",@"非属性字符串"] andChooseFunction:^(NSInteger tag) {
+[alertView showAlertWithTitle:@"很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长" 
+andAlertTitleColor:[UIColor redColor] andAlertTitleFont:[UIFont boldSystemFontOfSize:18] andAlertTitleH:180 andButtonNames:@[s,@"非属性字符串",@"非属性字符串"] andChooseFunction:^(NSInteger tag) {
             
         NSLog(@"tag = %ld", tag);
 
